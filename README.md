@@ -1,35 +1,36 @@
-# 📝 Todo List Project
+# To-Do List Project 📝
 
-Un'applicazione semplice ed efficace per la gestione delle attività quotidiane, progettata per aiutare gli utenti a rimanere organizzati e produttivi.
+## Descrizione
+**To-Do List** è un'applicazione per la gestione delle attività quotidiane, progettata per aiutare gli utenti a organizzare, monitorare e completare le proprie task in modo semplice ed efficace.  
+Permette di aggiungere, modificare, eliminare e segnare come completate le attività, con opzioni di data di scadenza e stato, offrendo una panoramica chiara delle priorità.
+
+Questo progetto è sviluppato in **Python** e può essere esteso facilmente con nuove funzionalità come categorie di task, salvataggio su file o database e interfaccia grafica.
 
 ---
 
-## 🚀 Funzionalità
-- **Aggiunta Task:** Crea nuove attività in pochi secondi.
-- **Gestione Stato:** Segna le attività come completate o rimuovile.
-- **Interfaccia Intuitiva:** Design pulito e facile da usare.
-- **Persistenza:** (Aggiungi qui se usi il LocalStorage o un Database, es: "Salvataggio automatico dei dati nel browser").
+## Funzionalità principali
+- Creazione, modifica e cancellazione di task (CRUD).  
+- Visualizzazione di tutte le task o filtraggio per stato (“completate” / “in corso”).  
+- Gestione delle date di scadenza per ogni task.  
+- Salvataggio e caricamento delle task da file locale.  
+- Interfaccia semplice e intuitiva, pronta per essere migliorata con GUI o web app.
 
-## 🛠️ Tecnologie Utilizzate
-Questo progetto è stato realizzato con:
-* **python** per :
-* - Struttura della pagina.
- - Styling e layout (Flexbox/Grid).
- - Logica applicativa e manipolazione del DOM.
+---
 
-## 📦 Installazione e Utilizzo
+## Tecnologie utilizzate
+- **Linguaggio**: Python 3.x  
+- **Gestione dati**: File locale (possibile upgrade a database)  
+- **Struttura**: Modulare, separando logica, gestione dati e interfaccia
+  
+---
 
-Per avviare il progetto localmente, segui questi passaggi:
+## Installazione e utilizzo
+1. Clonare il repository:
+```bash
+git clone https://github.com/tuo-username/todo-list.git
 
-1. **Clona il repository:**
-   ```bash
-   git clone [https://github.com/JUNIORKONDJI/todo_list_project.git](https://github.com/JUNIORKONDJI/todo_list_project.git)
+2. Entrare nella cartella del progetto:
+cd todo-list
 
- 2- Entra nella cartella: 
- cd todo_list_project
-
- 👤 Autore
-Junior Kondji
-
-GitHub: @JUNIORKONDJI
- 
+3. Avviare l’applicazione:
+python todo_list.py
